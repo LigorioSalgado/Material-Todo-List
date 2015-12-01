@@ -37,10 +37,11 @@
     android:layout_gravity="end|bottom"
     android:layout_marginBottom="@dimen/fab_margin"
     android:layout_marginEnd="@dimen/fab_margin"
-    android:background="@drawable/oval_rripple"
+    android:background="@drawable/oval_ripple"
     android:elevation="@dimen/elevation_low"
     android:tint="@android:color/white"
-    android:stateListAnimator="@anim/button"
+    android:stateListAnimator="@anim/buton_elevation"
     android:src="@android:drawable/ic_input_add"
+    tools:ignore="RtlCompat"
     />
     </FrameLayout>
